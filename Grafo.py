@@ -26,7 +26,7 @@ print("--- MATRIZ DE ADYACENCIA ---")
 print(matriz_adyacencia)
 print("-" * 30)
 
-# 3. Creación del Grafo
+
 G = nx.from_numpy_array(matriz_adyacencia)
 G = nx.relabel_nodes(G, etiquetas_nodos)
 
